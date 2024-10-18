@@ -181,6 +181,7 @@ GET /search-full
 Advanced search with multiple filters.
 
 **Parameters:**
+
 - `query` (required): Search term
 - `catalogId` (optional): Category ID
 - `size_ids` (optional): Comma-separated size IDs
@@ -193,11 +194,13 @@ Advanced search with multiple filters.
 - `country` (optional): Country code (default: 'us')
 
 **Example Request:**
+
 ```
 GET /search-full?query=dress&brand_ids=53,54&color_ids=1,2&page=1&country=us
 ```
 
 ### 11. Get Brands
+
 ```
 GET /brands
 ```
@@ -205,6 +208,7 @@ GET /brands
 Retrieve list of available brands.
 
 **Parameters:**
+
 - `country` (optional): Country code (default: 'us')
 
 **Example Request:**
@@ -220,6 +224,7 @@ GET /searchby-brand
 Search products from specific brands.
 
 **Parameters:**
+
 - `brand_ids` (optional): Brand ID (default: '53')
 - `query` (optional): Search term (default: '')
 - `page` (optional): Page number (default: 1)
@@ -297,9 +302,11 @@ Refer to your RapidAPI subscription plan for specific rate limiting details.
 ### General Questions
 
 **Q: What is the Vinted API?**
+
 A: The Vinted API is a RESTful interface that allows developers to programmatically access Vinted's marketplace data, including product listings, seller information, and search functionality. It's available through RapidAPI and provides comprehensive access to Vinted's platform features.
 
 **Q: What can I build with the Vinted API?**
+
 A: You can build various applications including:
 - Price comparison tools
 - Market analysis applications
@@ -310,11 +317,13 @@ A: You can build various applications including:
 - Marketplace aggregators
 
 **Q: Is the Vinted API official?**
+
 A: This API is a third-party solution available through RapidAPI that interfaces with Vinted's platform. For official integrations, please contact Vinted directly.
 
 ### Technical Questions
 
 **Q: How do I handle pagination in the API?**
+
 A: Most endpoints support pagination through the `page` and `perPage` parameters. Example:
 ```javascript
 // First page with 96 items
@@ -325,9 +334,11 @@ GET /search?query=nike&page=2&perPage=96
 ```
 
 **Q: What are the rate limits for the API?**
+
 A: Rate limits depend on your RapidAPI subscription plan. Check your plan details on RapidAPI for specific limits.
 
 **Q: How can I optimize my API usage?**
+
 A: Several ways to optimize:
 1. Implement client-side caching
 2. Use appropriate page sizes
@@ -338,6 +349,7 @@ A: Several ways to optimize:
 ### Integration Questions
 
 **Q: How do I get started with the API?**
+
 A: Follow these steps:
 1. Sign up for a RapidAPI account
 2. Subscribe to the Vinted API
@@ -345,6 +357,7 @@ A: Follow these steps:
 4. Make your first request using the provided documentation
 
 **Q: What programming languages are supported?**
+
 A: The API can be used with any programming language that supports HTTP requests. RapidAPI provides code examples in:
 - Python
 - JavaScript/Node.js
