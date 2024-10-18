@@ -1,5 +1,6 @@
 # Vinted API Documentation
 This API retrieves product information, reviews, search, seller information and a whole lot more from Vinted. This API is listed on [RapidAPI](https://rapidapi.com/belchiorarkad-FqvHs2EDOtP/api/vinted-api3)
+
 Link: [https://rapidapi.com/belchiorarkad-FqvHs2EDOtP/api/vinted-api3](https://rapidapi.com/belchiorarkad-FqvHs2EDOtP/api/vinted-api3)
 
 Base URL: `https://vinted-api3.p.rapidapi.com/`
